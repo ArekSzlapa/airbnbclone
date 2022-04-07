@@ -4,17 +4,7 @@ import Card from "./Card";
 import data from "./Data";
 const App = () => {
   const cardData = data.map((item) => {
-    return (
-      <Card
-        img={item.coverImg}
-        title={item.title}
-        rating={item.stats.rating}
-        reviewCount={item.stats.reviewCount}
-        price={item.price}
-        location={item.location}
-        openSpots={item.openSpots}
-      />
-    );
+    return <Card key={item.id} item={item} />;
   });
   return (
     <>
