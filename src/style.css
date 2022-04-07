@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.navbar-logo {
+  width: 200px;
+}
+.navbar-navbar {
+  width: 100%;
+  display: flex;
+  height: 12vh;
+  box-shadow: 0px 0px 5px 1px grey;
+}
+.hero-hero {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: auto;
+}
+.hero-hero h1 {
+  font-size: 64px;
+  padding: 50px 0px 20px;
+}
+.hero-hero p {
+  font-size: 36px;
+}
+.hero-hero img {
+  width: 1200px;
+}
+.navbar-holder {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.card-area {
+  width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.card-area img {
+  width: 35%;
+  margin-bottom: 10px;
+}
+#star {
+  width: 28px;
+  height: 28px;
+}
+.card-star-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+}
+.card-description {
+  font-size: 24px;
+}
+.card-grey {
+  color: grey;
+}
+.card-badge {
+  position: absolute;
+  background-color: #fff;
+  top: 30px;
+  left: 30px;
+  font-size: 24px;
+  padding: 5px 10px;
+  border-radius: 5px 10px;
+}
+.Card-offer {
+  border-radius: 15px;
+  min-width: 400px;
+  height: 300px;
+}
+.last {
+  margin-bottom: 200px;
+}
+.App-photo-container {
+  display: flex;
+  width: 1200px;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  gap: 50px;
+  cursor: grab;
+  overflow: auto;
+}
